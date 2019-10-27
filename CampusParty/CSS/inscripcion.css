@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+}
+.caja {    
+    width: 1300px;
+    height: 800px;
+    margin: auto;    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 92px;        
+}
+#formulario {
+    width: 1200px;        
+}
+
+#izqda {
+    width: 400px;  
+    float: left;        
+    margin-top: 60px;    
+    margin-left: 260px;   
+    margin-bottom: 30px;     
+}
+
+#dcha {
+    width: 410px;  
+    float: right;  
+    margin-right: 90px; 
+    margin-top: 60px;
+    margin-bottom: 30px;      
+}
+
+textarea {
+    margin-bottom: 20px;    
+    padding: 10px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    margin-left:49.5%;
+    padding: 5px 20px;
+}
+
+input[type="submit"]:hover {
+    background:#6E6E6E;
+    cursor:pointer;
+    padding: 5px 20px;
+}
+
+aside {
+    float: right;
+    margin-top: -600px;
+    margin-right: 32px;        
+}
+aside ul li {
+    list-style-type: none;
+}
+
+aside li a {
+    text-decoration: none;
+    display: block;
+    background-color: #F2F2F2;
+    color: black;
+    padding: 8px 10px;
+    font-size: 120%;
+    border: .5px solid black;
+}
+aside li a:hover {
+    background-color: silver;
+    color: black;
+    font-weight: bold;
+
+}
+#ext li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px; 
+}
+#ext li:hover > ul{ 
+    display: block;
+}
+#ext li ul li {
+    position: relative;
+}
+aside li:hover > ul {
+    display:block;
+}
+#ext li ul li ul{
+    right: -140px;
+    top: 0px;
+}

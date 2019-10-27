@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">    
+    <title>Formulario de inscripción</title>    
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/inscripcion.css">    
+</head>
+<body>
+    <div class="caja">
+        <h1>FORMULARIO DE INSCRIPCIÓN</h1><br>
+
+        <form Nombre="formulario" action="raul.rodriguez@universidadeuropea.es" method="POST" name="Formulario de inscripción">
+
+        <div id="formulario">
+            <div id="izqda">                  
+                <label for="nombre"><p>Nombre:</p></label>
+                <input type="text" id="nombre" size="35"><br><br>
+
+                <label for="telf"><p>Teléfono:</p></label>
+                <input type="tel" id="telf" size="35"><br><br>
+
+                <label for="mail"><p>Email:</p></label>
+                <input type="email" id="mail" size="35"><br><br>
+                
+
+                <label for="lista"><p>Tipo de entrada:</p></label>
+                <input list="lista" size="35">
+                <datalist id="lista">
+                    <option value="Estudiante 25€: Acceso a evento y regalo de Kit de PartyUE"/>
+                    <option value="Profesional 50€: Acceso a evento + kit de PartyUE + Acceso a un taller y ponencia"/>
+                    <option value="VIP 200€: Acceso a evento + kit de PartyUE + Acceso a todos los talleres y ponnencias"/>
+                    <option value="Sólo Ponencia 15€"/>
+                    <option value="Sólo Taller 15€"/>
+                </datalist>           
+            </div>            
+
+            <div id="dcha">
+                    <label for="comen"><p>Comentarios:</p></label>
+                    <textarea id="comen" cols="40" rows="10"></textarea>            
+            </div>
+
+            <input type="submit" value="Enviar">
+                
+        </div>
+        </form>
+                
+        <aside>
+            <ul id="ext">
+                <li><a href="campusparty.html">Menú de Opciones</a>
+                    <ul>
+                    <li><a href="quienesSomos.html">Quiénes Somos</a></li>
+                    <li><a href="programa1.html">Programa del evento</a></li>
+                    <li><a href="patrocinadores.html">Patrocinadores</a></li>
+                    <li><a href="talleres1.html">Registro Talleres</a></li>
+                    <li><a href="../PaginaPrincipal.html">Home</a></li>
+                </ul>
+                </li>
+            </ul>
+        </aside>
+
+        
+    </div>
+    
+</body>
+
+</html>

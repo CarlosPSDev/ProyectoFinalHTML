@@ -1,0 +1,78 @@
+body {
+    font-family: Arial;
+}
+
+.caja {    
+    width: 1300px;
+    height: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;   
+    margin-top: 75px;   
+    text-transform: uppercase;    
+}
+
+aside {
+    float: right;
+    margin-top: -105px;
+    margin-right: 32px;        
+}
+aside ul li {
+    list-style-type: none;
+}
+
+aside li a {
+    text-decoration: none;
+    display: block;
+    background-color: #F2F2F2;
+    color: black;
+    padding: 8px 10px;
+    font-size: 120%;
+    border: .5px solid black;
+}
+aside li a:hover {
+    background-color: silver;
+    color: black;
+    font-weight: bold;
+}
+#ext li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px; 
+}
+#ext li:hover > ul{ 
+    display: block;
+}
+#ext li ul li {
+    position: relative;
+}
+aside li:hover > ul {
+    display:block;
+}
+#ext li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+img[src="Imagenes/patrocinadores/uem.png"] {
+    width: 300px;
+    margin-top: 170px;     
+}
+
+#dcha {
+    width: 900px;
+    height: 370px;
+    margin-top: -335px;    
+    margin-left: 305px;
+}
+#dcha img {
+    width: 95px;     
+    margin: 35px 25px;
+}
+
+
+
+
+

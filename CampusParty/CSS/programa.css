@@ -1,0 +1,147 @@
+body {
+    font-family: Arial;
+    /*text-align: center;
+    align-content: center;*/
+}
+.caja {    
+    width: 1300px;
+    height: 800px;
+    margin: auto;
+}
+header {
+    width: 780px;        
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 18px;      
+    
+      
+}
+header div {       
+    text-align: center;
+    width: 140px; 
+    height: 30px;
+    padding-top: 1.5%;
+    display: inline-block;
+    border: 1px solid #000;    
+}
+#primer {
+    margin-top: 20px;
+    margin-left: 230px;
+    margin-right: 50px;    
+}
+header div a {
+    text-decoration: none;
+    color: black;
+    text-align: center;    
+    font-weight: 730;
+    padding-right: 25px; 
+}
+header a:hover{
+    font-size: 118%;
+    color: #084B8A;
+}
+h1, h3 {
+    text-align: center;        
+}
+hr, .hrcolor {
+    height: 1px;
+    border: 0;    
+    background-color: #000;
+ }
+aside {
+    float: right;
+    margin-top: -212px;
+    margin-right: 25px;        
+}
+aside ul li {
+    list-style-type: none;
+}
+
+aside li a {
+    text-decoration: none;
+    display: block;
+    background-color: #F2F2F2;
+    color: black;
+    padding: 8px 10px;
+    font-size: 120%;
+    border: .5px solid black;
+}
+aside li a:hover {
+    background-color: silver;
+    color: black;
+    font-weight: bold;
+
+}
+#ext li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px; 
+}
+#ext li:hover > ul{ 
+    display: block;
+}
+#ext li ul li {
+    position: relative;
+}
+aside li:hover > ul {
+    display:block;
+}
+#ext li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+h5 {
+    text-align: right;
+    margin-bottom: -5px;
+    margin-right: 10px;    
+}
+.interno {
+    margin-top: -10px;
+
+}
+h4 {
+    margin-bottom: 0;
+}
+.externo {
+    margin-right: 285px;
+    margin-bottom: .3%;
+}
+.titfinal{
+    margin-bottom: .4%;
+}
+.equipo {
+    width: 743px;    
+    margin: auto; 
+    border: 1px solid #000;    
+}
+.ponentesA {
+    width: 210px;    
+    text-align: center;      
+    margin:15px;
+    margin-left: -20px;
+    line-height: 1.5em;
+     
+    
+}
+.ponentesB {
+    width: 180px;    
+    text-align: center;
+    display: inline-block;
+    margin:16px;
+    margin-left: -5px;
+    margin-right: -30px;
+    line-height: 1.5em;
+    
+}
+.ponentesB img, .ponentesA img  {
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: -9px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

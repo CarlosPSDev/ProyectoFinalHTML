@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+}
+.caja {    
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+}
+.logo {
+    width: 290px;    
+    margin: auto;
+    margin-top: 150px;
+    
+}
+h2 {
+    text-align: center;
+    margin-top: -5px;
+    font-style: italic;    
+}
+#redes {
+    margin-top:-480px;
+    position: absolute;
+    
+}
+aside {
+    float: right;
+    margin-top: -420px;
+    margin-right: 25px;
+        
+}
+aside ul li {
+    list-style-type: none;
+}
+
+aside li a {
+    text-decoration: none;
+    display: block;
+    background-color: #F2F2F2;
+    color: black;
+    padding: 8px 10px;
+    font-size: 120%;
+    border: .5px solid black;
+}
+aside li a:hover {
+    background-color: silver;
+    color: black;
+    font-weight: bold;
+
+}
+#ext li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px; 
+}
+#ext li:hover > ul{ 
+    display: block;
+}
+#ext li ul li {
+    position: relative;
+}
+aside li:hover > ul {
+    display:block;
+}
+#ext li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+#p {
+    margin-left: 40px;
+    margin-top: 110px;
+    line-height: 18pt;
+    font-family: Arial;
+    text-align: justify;
+}

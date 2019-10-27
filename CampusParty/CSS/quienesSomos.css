@@ -1,0 +1,86 @@
+body {
+    font-family: Arial;
+}
+.caja {    
+    width: 1300px;
+    height: 800px;
+    margin: auto;
+}
+.quienes {
+    width: 780px;        
+    margin: auto;
+    margin-top: 92px;
+    margin-bottom: 50px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 18px;
+    
+}
+h1 {
+    text-align: center;
+    
+        
+}
+aside {
+    float: right;
+    margin-top: -500px;
+    margin-right: 25px;
+        
+}
+aside ul li {
+    list-style-type: none;
+}
+
+aside li a {
+    text-decoration: none;
+    display: block;
+    background-color: #F2F2F2;
+    color: black;
+    padding: 8px 10px;
+    font-size: 120%;
+    border: .5px solid black;
+}
+aside li a:hover {
+    background-color: silver;
+    color: black;
+    font-weight: bold;
+
+}
+#ext li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px; 
+}
+#ext li:hover > ul{ 
+    display: block;
+}
+#ext li ul li {
+    position: relative;
+}
+aside li:hover > ul {
+    display:block;
+}
+#ext li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+#equipo {
+    width: 743px;    
+    margin: auto;    
+}
+.compis {
+    width: 210px;    
+    color: grey;
+    text-align: center;
+    display: inline-block;
+    margin:16px;
+    line-height: 1.5em;
+    
+}
+.compis img {
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    width: 90px;
+    border-radius: 50%;
+}
